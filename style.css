@@ -169,10 +169,17 @@ section img {
 }
 
 .video {
-    background-color: black;
-    width: 200px;
-    margin: 0 auto;
+    background-color: rgb(211, 15, 15);
+    display: flex;
 
+
+
+}
+
+video {
+    width: 1000px;
+    
+    margin: 0 auto;
 }
 
 .grid-container2 {
