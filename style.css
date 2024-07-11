@@ -1,0 +1,197 @@
+header {
+    background-color: rgb(192, 188, 188);
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    text-align: center;
+    letter-spacing: 5px;
+    font-style: italic;
+    font-size: 37px;
+    text-shadow: 2px 2px 5px black;
+}
+
+header h2,
+#outro {
+    background-color: rgb(192, 188, 188);
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    text-align: center;
+    letter-spacing: 5px;
+    font-style: italic;
+    font-size: 25px;
+    padding: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+section h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    background-color: rgb(185, 220, 252);
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    align-items: center;
+}
+
+#travellight {
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    opacity: .8;
+    float: left;
+    border-radius: 8px;
+}
+
+.menuitems {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(99, 153, 252);
+    font-size: large;
+    align-items: center;
+    width: 60vw;
+    height: 3vw;
+    list-style-type: none;
+}
+
+.bi {
+    text-decoration: none;
+    background-color: white;
+    font-size: 23px;
+}
+
+i a {
+    text-decoration: none;
+}
+
+.where,
+.transportation,
+.tips,
+.shop {
+    display: none;
+    background-color: rgb(192, 188, 188);
+    width: 140px;
+    z-index: 2;
+}
+
+.bi-buildings,
+.bi-train-front,
+.bi-lightbulb,
+.bi-gift {
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+}
+
+.bi-buildings:hover>.where {
+    display: block;
+    position: absolute;
+    left: 5px;
+    right: 50px;
+}
+
+.bi-train-front:hover>.transportation {
+    display: block;
+    position: absolute;
+    left: 5px;
+    right: 50px;
+}
+
+.bi-lightbulb:hover>.tips {
+    display: block;
+    position: absolute;
+    left: 5px;
+    right: 50px;
+}
+
+.bi-gift:hover>.shop {
+    display: block;
+    position: absolute;
+    left: 5px;
+    right: 50px;
+}
+
+.carousel {
+    width: 800px;
+    height: 400px;
+    margin: auto auto;
+    position: relative;
+    top: 50%;
+}
+
+.grid-container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section {
+    width: 500px;
+    height: 750px;
+    background-color: rgb(185, 220, 252);
+    gap: 10px;
+    padding: 10px;
+}
+
+section img {
+    position: relative;
+    width: 500px;
+    height: 350px;
+}
+
+#book,
+#rail,
+#bus {
+    background-color: gold;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+}
+
+.video {
+    background-color: black;
+    width: 200px;
+    margin: 0 auto;
+
+}
+
+.grid-container2 {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.T-shirt {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(185, 220, 252);
+    margin: 20px;
+    gap: 10px;
+    padding: 20px;
+}
+
+.T-shirt>img {
+    position: relative;
+    width: 250px;
+    height: 300px;
+}
